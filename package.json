@@ -1,0 +1,44 @@
+{
+  "name": "whatsapp-js",
+  "version": "1.0.0",
+  "description": "WhatsApp automation bot and web platform built with Bun, TypeScript, Next.js, and zapo-js",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "bot": "bun run src/bot/cli.ts",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@types/qrcode": "^1.5.6",
+    "@zapo-js/store-sqlite": "^1.3.0",
+    "better-sqlite3": "^13.0.3",
+    "lucide-react": "^1.55.0",
+    "next": "16.4.0",
+    "qrcode": "^1.5.4",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "zapo-js": "^1.10.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/turbopack": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.0",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  },
+  "packageManager": "bun@1.4.2",
+  "ignoreScripts": [
+    "sharp",
+    "unrs-resolver"
+  ],
+  "trustedDependencies": [
+    "sharp",
+    "unrs-resolver"
+  ]
+}
